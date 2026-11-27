@@ -1,0 +1,80 @@
+{
+  "pipeline": [
+    "Nano RP2040 Connect / LSM6DSOX",
+    "Arduino_LSM6DSOX",
+    "Wi-Fi / MQTT / Mosquitto",
+    "Python attitude fusion and gesture recognition",
+    "UDP JSON v1",
+    "UE5"
+  ],
+  "mqtt": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "board_broker_address": "Use the Mosquitto PC LAN IPv4 address; 127.0.0.1 is for Python on the broker PC only",
+    "raw_topic": "luna/imu/raw",
+    "transport": "reserved upstream interface"
+  },
+  "raw_fields": {
+    "boot_id": "board session",
+    "source_seq": "new sensor sample counter",
+    "ax_g": "g",
+    "ay_g": "g",
+    "az_g": "g",
+    "gx_dps": "degrees per second",
+    "gy_dps": "degrees per second",
+    "gz_dps": "degrees per second",
+    "sample_ms": "Board millis at the original sensor sample"
+  },
+  "ue_host": "127.0.0.1",
+  "ue_settings_file": "../Config/DefaultGame.ini",
+  "ue_settings_section": "/Script/LunaMVP.LunaSettings",
+  "udp_input_port_setting": "InputPort",
+  "udp_recenter_port_setting": "ControlPort",
+  "nominal_output_hz": 60,
+  "input_example": {
+    "schema": 1,
+    "type": "input",
+    "bridge_id": "python-session",
+    "boot_id": "board-session",
+    "source_seq": 42,
+    "source_age_ms": 10,
+    "source_bound_ms": 0,
+    "valid": true,
+    "calibrated": true,
+    "pitch_deg": 8.0,
+    "roll_deg": -4.0,
+    "gesture_seq": 1,
+    "gesture": "UP"
+  },
+  "axes": {
+    "positive_pitch": "forward / world +X",
+    "positive_roll": "right / world +Y",
+    "gesture": [
+      "NONE",
+      "UP",
+      "DOWN"
+    ]
+  },
+  "recenter": {
+    "request_type": "recenter",
+    "response_type": "recenter_ack",
+    "success_code": "CENTERED",
+    "copy_fields": [
+      "request_id",
+      "bridge_id",
+      "boot_id"
+    ],
+    "requires": "Complete upstream stationary calibration; acknowledge its source_seq, then send a newer sample. Never acknowledge merely because the request arrived."
+  },
+  "freshness": "UE rejects duplicate/old source_seq. Keep the original sample age through MQTT/fusion; packets older than StaleSeconds lock flight. Reconnect/boot changes require recentering.",
+  "default_ports": {
+    "mqtt": 1883,
+    "python_to_ue_udp": 7001,
+    "ue_to_python_recenter_udp": 7002
+  },
+  "fusion_state": {
+    "source_time": "Original raw-sample time mapped to Python time.monotonic(), never refreshed on resend",
+    "source_bound_ms": "Nonnegative clock/network age uncertainty bound",
+    "calibrated": "True only after upstream stationary calibration"
+  }
+}

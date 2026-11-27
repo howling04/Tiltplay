@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@strudel/web": "1.3.0",
+    "puppeteer-core": "25.18.1"
+  },
+  "name": "luna-bgm",
+  "version": "1.0.0",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

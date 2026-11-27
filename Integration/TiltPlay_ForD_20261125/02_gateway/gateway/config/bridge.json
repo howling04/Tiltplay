@@ -1,0 +1,70 @@
+{
+  "mqtt": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "username": "bridge",
+    "password_env": "TILT_MQTT_PASSWORD",
+    "keepalive_s": 15,
+    "client_id": "bridge-host"
+  },
+  "udp": {
+    "host": "127.0.0.1",
+    "port": 7001,
+    "control_port": 7002
+  },
+  "telemetry_hz": 104,
+  "udp_hz": 60,
+  "stale_ms": 250,
+  "event_ttl_ms": 200,
+  "probe_interval_ms": 2000,
+  "probe_ttl_ms": 5000,
+  "probe_rtt_max_ms": 50,
+  "clock_margin_ms": 10,
+  "deadzone_deg": 3,
+  "saturation_deg": 25,
+  "still_window_ms": 500,
+  "still_gyro_rps": 0.12,
+  "still_acc_tol": 0.15,
+  "require_recenter": true,
+  "button_jump_enabled": false,
+  "log": {
+    "dir": "runtime/logs",
+    "max_mb": 20,
+    "backups": 5
+  },
+  "fusion": {
+    "mode": "complementary",
+    "tau_s": 0.5,
+    "gyro_pitch_sign": -1,
+    "gyro_roll_sign": 1
+  },
+  "devices": {
+    "nano-a1b2c3d4e5f6": {
+      "player_slot": 0,
+      "vertical_step_enabled": true,
+      "axis_profile": "verified-board-01",
+      "mode": "tilt2",
+      "axis_matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  "console": {
+    "enabled": true,
+    "status_s": 5
+  },
+  "forward_output_sign": -1.0,
+  "require_level_recenter": true,
+  "recenter_level_max_deg": 10.0
+}

@@ -1,0 +1,420 @@
+{
+  "Earth": {
+    "horizons_id": 399,
+    "parent": "",
+    "moon_centered_km": [
+      -382770.2459810741,
+      29156.29645993963,
+      -6688.298118166151
+    ],
+    "radii_km": [
+      6378.1366,
+      6378.1366,
+      6356.7519
+    ],
+    "pole_icrf_deg": [
+      -0.17232854244490142,
+      89.85025429307049
+    ],
+    "texture_source": "https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png"
+  },
+  "Phobos": {
+    "horizons_id": 401,
+    "parent": "Mars",
+    "moon_centered_km": [
+      -160280596.3598199,
+      92077185.3110201,
+      47252924.62466729
+    ],
+    "radii_km": [
+      13.0,
+      11.4,
+      9.1
+    ],
+    "pole_icrf_deg": [
+      317.6415623282937,
+      52.869779915174604
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/mar1kuu2.jpg"
+  },
+  "Deimos": {
+    "horizons_id": 402,
+    "parent": "Mars",
+    "moon_centered_km": [
+      -160250836.8761923,
+      92087309.85361579,
+      47242998.97686721
+    ],
+    "radii_km": [
+      7.8,
+      6.0,
+      5.1
+    ],
+    "pole_icrf_deg": [
+      316.6287811061773,
+      53.493845937579394
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/mar2kuu2.jpg"
+  },
+  "Io": {
+    "horizons_id": 501,
+    "parent": "Jupiter",
+    "moon_centered_km": [
+      -644722688.609247,
+      397424420.9042066,
+      183498760.6252242
+    ],
+    "radii_km": [
+      1829.4,
+      1819.4,
+      1815.7
+    ],
+    "pole_icrf_deg": [
+      268.0475804104805,
+      64.50080652983983
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/jup1vss2.jpg"
+  },
+  "Europa": {
+    "horizons_id": 502,
+    "parent": "Jupiter",
+    "moon_centered_km": [
+      -644381797.9930339,
+      396806306.782041,
+      183213244.7275926
+    ],
+    "radii_km": [
+      1562.6,
+      1560.3,
+      1559.5
+    ],
+    "pole_icrf_deg": [
+      268.0775804104805,
+      64.51080652983984
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/jup2vss2.jpg"
+  },
+  "Ganymede": {
+    "horizons_id": 503,
+    "parent": "Jupiter",
+    "moon_centered_km": [
+      -643414223.771669,
+      397942739.3529579,
+      183768541.4876316
+    ],
+    "radii_km": [
+      2631.2,
+      2631.2,
+      2631.2
+    ],
+    "pole_icrf_deg": [
+      268.1975804104805,
+      64.57080652983983
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/jup3vss2.jpg"
+  },
+  "Callisto": {
+    "horizons_id": 504,
+    "parent": "Jupiter",
+    "moon_centered_km": [
+      -645832478.8588114,
+      396410478.4344937,
+      183004763.3417839
+    ],
+    "radii_km": [
+      2410.3,
+      2410.3,
+      2410.3
+    ],
+    "pole_icrf_deg": [
+      268.71758041048054,
+      64.83080652983983
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/jup4vss2.jpg"
+  },
+  "Mimas": {
+    "horizons_id": 601,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1294281438.280759,
+      189774816.4499549,
+      16769573.08163825
+    ],
+    "radii_km": [
+      207.8,
+      196.7,
+      190.6
+    ],
+    "pole_icrf_deg": [
+      40.65032164192197,
+      83.51892462688022
+    ],
+    "texture_source": "https://science.nasa.gov/photojournal/enhanced-color-maps-of-saturn-inner-moons/"
+  },
+  "Enceladus": {
+    "horizons_id": 602,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1294156128.661602,
+      189884494.6685547,
+      16773643.01613993
+    ],
+    "radii_km": [
+      256.6,
+      251.4,
+      248.3
+    ],
+    "pole_icrf_deg": [
+      40.65032164192197,
+      83.51892462688022
+    ],
+    "texture_source": "https://science.nasa.gov/photojournal/enhanced-color-maps-of-saturn-inner-moons/"
+  },
+  "Tethys": {
+    "horizons_id": 603,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1293877620.501477,
+      189751868.9965842,
+      16801711.32439884
+    ],
+    "radii_km": [
+      538.4,
+      528.3,
+      526.3
+    ],
+    "pole_icrf_deg": [
+      40.65032164192197,
+      83.51892462688022
+    ],
+    "texture_source": "https://science.nasa.gov/photojournal/enhanced-color-maps-of-saturn-inner-moons/"
+  },
+  "Dione": {
+    "horizons_id": 604,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1293937990.396119,
+      189339219.602602,
+      16832376.2745899
+    ],
+    "radii_km": [
+      563.4,
+      561.3,
+      559.6
+    ],
+    "pole_icrf_deg": [
+      40.65032164192197,
+      83.51892462688022
+    ],
+    "texture_source": "https://science.nasa.gov/photojournal/enhanced-color-maps-of-saturn-inner-moons/"
+  },
+  "Rhea": {
+    "horizons_id": 605,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1294419144.961974,
+      190098708.3947233,
+      16733936.38584156
+    ],
+    "radii_km": [
+      765.0,
+      763.1,
+      762.4
+    ],
+    "pole_icrf_deg": [
+      40.370321641921976,
+      83.54892462688022
+    ],
+    "texture_source": "https://science.nasa.gov/photojournal/enhanced-color-maps-of-saturn-inner-moons/"
+  },
+  "Titan": {
+    "horizons_id": 606,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1294442237.653379,
+      190827399.3052261,
+      16686584.91435097
+    ],
+    "radii_km": [
+      2575.15,
+      2574.78,
+      2574.47
+    ],
+    "pole_icrf_deg": [
+      39.4827,
+      83.4279
+    ],
+    "texture_source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19658/PIA19658.jpg"
+  },
+  "Iapetus": {
+    "horizons_id": 608,
+    "parent": "Saturn",
+    "moon_centered_km": [
+      1291364314.731331,
+      191759725.3371278,
+      17737562.71475436
+    ],
+    "radii_km": [
+      745.7,
+      745.7,
+      712.1
+    ],
+    "pole_icrf_deg": [
+      317.09833788749626,
+      74.72271213102259
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/sat8vss2.jpg"
+  },
+  "Ariel": {
+    "horizons_id": 701,
+    "parent": "Uranus",
+    "moon_centered_km": [
+      1229461000.515906,
+      2269975358.888705,
+      976031685.9080364
+    ],
+    "radii_km": [
+      581.1,
+      577.9,
+      577.7
+    ],
+    "pole_icrf_deg": [
+      257.43,
+      -15.1
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/ura1vuu2.jpg"
+  },
+  "Umbriel": {
+    "horizons_id": 702,
+    "parent": "Uranus",
+    "moon_centered_km": [
+      1229165338.094132,
+      2269948567.540591,
+      976366384.6993116
+    ],
+    "radii_km": [
+      584.7,
+      584.7,
+      584.7
+    ],
+    "pole_icrf_deg": [
+      257.43,
+      -15.1
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/ura2vuu2.jpg"
+  },
+  "Titania": {
+    "horizons_id": 703,
+    "parent": "Uranus",
+    "moon_centered_km": [
+      1229463179.633817,
+      2270054075.535604,
+      975745452.6806169
+    ],
+    "radii_km": [
+      788.9,
+      788.9,
+      788.9
+    ],
+    "pole_icrf_deg": [
+      257.43,
+      -15.1
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/ura3vuu2.jpg"
+  },
+  "Oberon": {
+    "horizons_id": 704,
+    "parent": "Uranus",
+    "moon_centered_km": [
+      1229570538.714744,
+      2269786793.490626,
+      976628467.5140475
+    ],
+    "radii_km": [
+      761.4,
+      761.4,
+      761.4
+    ],
+    "pole_icrf_deg": [
+      257.43,
+      -15.1
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/ura4vuu2.jpg"
+  },
+  "Miranda": {
+    "horizons_id": 705,
+    "parent": "Uranus",
+    "moon_centered_km": [
+      1229189852.601123,
+      2270023680.706947,
+      976112535.2119057
+    ],
+    "radii_km": [
+      240.4,
+      234.2,
+      232.9
+    ],
+    "pole_icrf_deg": [
+      257.43,
+      -15.08
+    ],
+    "texture_source": "https://space.jpl.nasa.gov/tmaps/pix/ura5vuu2.jpg"
+  },
+  "Triton": {
+    "horizons_id": 801,
+    "parent": "Neptune",
+    "moon_centered_km": [
+      4381743233.517089,
+      139580101.3652832,
+      -56563397.23433226
+    ],
+    "radii_km": [
+      1352.6,
+      1352.6,
+      1352.6
+    ],
+    "pole_icrf_deg": [
+      299.36,
+      41.17
+    ],
+    "texture_source": "https://science.nasa.gov/resource/map-of-triton/"
+  },
+  "Proteus": {
+    "horizons_id": 808,
+    "parent": "Neptune",
+    "moon_centered_km": [
+      4382108486.814044,
+      139821346.3016771,
+      -56625842.51276103
+    ],
+    "radii_km": [
+      218.0,
+      208.0,
+      201.0
+    ],
+    "pole_icrf_deg": [
+      299.27,
+      42.91
+    ],
+    "texture_source": "https://solarviews.com/raw/nep/proteus2.gif"
+  },
+  "Charon": {
+    "horizons_id": 901,
+    "parent": "Pluto",
+    "moon_centered_km": [
+      2926371777.653333,
+      -3978711063.782248,
+      -2161265189.54723
+    ],
+    "radii_km": [
+      606.0,
+      606.0,
+      606.0
+    ],
+    "pole_icrf_deg": [
+      132.993,
+      -6.163
+    ],
+    "texture_source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19866/PIA19866.jpg"
+  }
+}

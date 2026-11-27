@@ -1,0 +1,141 @@
+{
+  "Jupiter": {
+    "radial_range_km": [
+      100000,
+      222000
+    ],
+    "bands": [
+      {
+        "radius_km": 111200,
+        "width_km": 22400,
+        "optical_depth": 1e-06
+      },
+      {
+        "radius_km": 125750,
+        "width_km": 6700,
+        "optical_depth": 8e-06
+      },
+      {
+        "radius_km": 151875,
+        "width_km": 58950,
+        "optical_depth": 5e-07
+      },
+      {
+        "radius_km": 172150,
+        "width_km": 99500,
+        "optical_depth": 1e-07
+      }
+    ]
+  },
+  "Uranus": {
+    "radial_range_km": [
+      26800,
+      106300
+    ],
+    "bands": [
+      {
+        "radius_km": 39600,
+        "width_km": 3500,
+        "optical_depth": 0.0045
+      },
+      {
+        "radius_km": 41838,
+        "width_km": 1.53,
+        "optical_depth": 0.3
+      },
+      {
+        "radius_km": 42234,
+        "width_km": 2.28,
+        "optical_depth": 0.5
+      },
+      {
+        "radius_km": 42571,
+        "width_km": 2.33,
+        "optical_depth": 0.3
+      },
+      {
+        "radius_km": 44718,
+        "width_km": 8.46,
+        "optical_depth": 0.4
+      },
+      {
+        "radius_km": 45661,
+        "width_km": 9.49,
+        "optical_depth": 0.4
+      },
+      {
+        "radius_km": 47176,
+        "width_km": 1.6,
+        "optical_depth": 0.4
+      },
+      {
+        "radius_km": 47627,
+        "width_km": 2.15,
+        "optical_depth": 0.3
+      },
+      {
+        "radius_km": 48300,
+        "width_km": 4.6,
+        "optical_depth": 0.5
+      },
+      {
+        "radius_km": 50024,
+        "width_km": 2.3,
+        "optical_depth": 0.1
+      },
+      {
+        "radius_km": 51149,
+        "width_km": 58.1,
+        "optical_depth": 1.4
+      },
+      {
+        "radius_km": 67300,
+        "width_km": 3800,
+        "optical_depth": 5.6e-06
+      },
+      {
+        "radius_km": 97700,
+        "width_km": 17000,
+        "optical_depth": 8.5e-06
+      }
+    ]
+  },
+  "Neptune": {
+    "radial_range_km": [
+      40900,
+      63030
+    ],
+    "bands": [
+      {
+        "radius_km": 42000,
+        "width_km": 2000,
+        "optical_depth": 0.0001
+      },
+      {
+        "radius_km": 53200,
+        "width_km": 100,
+        "optical_depth": 0.003
+      },
+      {
+        "radius_km": 55200,
+        "width_km": 4000,
+        "optical_depth": 0.0001
+      },
+      {
+        "radius_km": 57200,
+        "width_km": 300,
+        "optical_depth": 0.0002
+      },
+      {
+        "radius_km": 61953,
+        "width_km": 30,
+        "optical_depth": 0.0002
+      },
+      {
+        "radius_km": 62933,
+        "width_km": 15,
+        "optical_depth": 0.009
+      }
+    ]
+  }
+}

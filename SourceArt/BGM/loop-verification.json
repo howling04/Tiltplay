@@ -1,0 +1,46 @@
+{
+  "onsets": 561,
+  "orbitOnsets": {
+    "1": 32,
+    "2": 136,
+    "3": 32,
+    "4": 15,
+    "5": 48,
+    "6": 43,
+    "7": 95,
+    "8": 32,
+    "9": 64,
+    "10": 64
+  },
+  "bpm": 80,
+  "cycles": 16,
+  "durationSeconds": 48,
+  "sampleRate": 48000,
+  "frames": 2304000,
+  "channels": 2,
+  "format": "signed 16-bit PCM",
+  "peakDbfs": -6,
+  "prerollSeconds": 12,
+  "seamOverlapMilliseconds": 60,
+  "channelAudit": [
+    {
+      "channel": "L",
+      "wrapStepPcm16": 98,
+      "continuousStepPcm16": 98,
+      "localStepP99Pcm16": 377,
+      "rmsDbfs": -20.62,
+      "seamBeforeRmsDbfs": -22.85,
+      "seamAfterRmsDbfs": -18.73
+    },
+    {
+      "channel": "R",
+      "wrapStepPcm16": 114,
+      "continuousStepPcm16": 114,
+      "localStepP99Pcm16": 381,
+      "rmsDbfs": -20.72,
+      "seamBeforeRmsDbfs": -23.01,
+      "seamAfterRmsDbfs": -18.81
+    }
+  ],
+  "sha256": "43205ffcb216aca1d722a88b487fe658d0968d35e6c94e90cf5a7ba9e260a793"
+}

@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "",
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "Terminal",
+      "Enabled": true
+    },
+    {
+      "Name": "ModelContextProtocol",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorToolset",
+      "Enabled": true
+    },
+    {
+      "Enabled": true,
+      "Name": "ProceduralMeshComponent"
+    }
+  ],
+  "Modules": [
+    {
+      "LoadingPhase": "Default",
+      "Name": "LunaMVP",
+      "Type": "Runtime"
+    }
+  ]
+}

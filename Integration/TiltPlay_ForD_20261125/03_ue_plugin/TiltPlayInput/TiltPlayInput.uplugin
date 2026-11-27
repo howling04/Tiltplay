@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "TiltPlay Input",
+	"Description": "TiltPlay tilt controller input service: listens 7001 (input JSON over UDP), sends control to 7002 (recenter / acks). No project dependencies.",
+	"Category": "Input Devices",
+	"CreatedBy": "YUAN Huazhang (C), PolyU EIE568 TiltPlay group",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "TiltPlayInput",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
